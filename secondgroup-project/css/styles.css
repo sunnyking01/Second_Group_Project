@@ -1,0 +1,275 @@
+
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit' sans-serif;
+    
+}
+
+.landing{    
+    
+    background-image: url(/asserts/images/unsplash_f-TWhXOrLiU.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 844px;
+}
+.salad-bowl img{
+    margin-top: 260px;
+    margin-left: 160px;
+
+}
+
+.go_foods >h2{
+    padding-left: 143px;
+    padding-top: 15px;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgba (0, 0, 0, 0.8);
+   
+}
+.freshly p{
+    
+    margin-top: 163px;
+    text-align: center;
+    padding-left: 102px;
+    padding-right: 102px;
+    font-family: roboto;
+    font-weight: 700px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: rgba (0, 0, 0, 0.8);
+
+}
+.get-started{
+    margin: 96px 132px ;
+    border-radius: 10px;
+    height: 36px;
+    width: 126px;
+    border: none;
+    background-color: rgba(0, 200, 83, 1);
+    color: white;
+} 
+ /* .navcon{
+    background-color: aqua;
+    position: fixed;
+    z-index: 1;
+    padding: 0.5%;
+    width: 3%;
+    height: 75px;
+    
+}  */
+
+.main-dish{
+    margin-left: 30px;
+    list-style-position: inside;
+    color: red;
+}
+.baba{
+    margin-left: 80px;
+}
+
+
+.slideOutNavbar{
+    position: fixed;
+    left: -264px;
+    /* left: 0; */
+    width: 250px;
+    height: 610px;
+    background-color: #00c853;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+
+}
+.slideOutNavbar header{
+    font-size: 22px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    user-select: none;
+}
+.slideOutNavbar ul{
+    padding-inline-start: 0px;
+    
+
+}
+.slideOutNavbar ul li{
+    list-style-type: disc;
+    color: white;
+}
+.slideOutNavbar ul li a{
+    display: block;
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    transition: all .5s ease;
+    color: white;
+    
+
+
+}
+
+.slideOutNavbar ul li a:hover{
+    /* padding-left: 40px; */
+    transition: all .4s ease;
+}
+.slideOutNavbar ul li a i{
+    padding-right: 10px;
+}
+.icon{
+    position: relative;
+    float: left;
+    left: 5px;
+    margin: 0px 30px 0 0;
+    cursor: pointer;
+}
+.icon .toggler {
+    width: 23.94px;
+    height: 4px;
+    background-color: #00c853;
+    margin: 5px;
+    border-radius: 1px;
+}
+input[type="checkbox"]{
+    display: none;
+} 
+nav :checked~.slideOutNavbar{
+    left: 0;
+    transition: all .5s ease;
+}
+
+svg {
+    
+    
+
+}
+
+.menu_profile{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 38px;
+    padding: 0 30px 0 23px;
+}
+.searchbar{
+    
+    width: 327px;
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-left: 31px;
+    
+    
+}
+form{
+    width:280px;
+    height: 32px;    
+    display: flex;
+    border: 1px solid #00c853;
+    border-radius: 10px;
+ 
+}
+form input[type=search]{
+    /* background-color: red; */
+    width: 240px;
+    outline: none;
+    border: none;
+     
+}
+form svg{
+    padding-top: 5px;
+}
+.main_today{
+    margin-top: 40px;
+}
+.main_today >h2{
+    margin-left: 22px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39.84px;
+    letter-spacing: 0.25px;
+    margin-bottom: 19px;
+}
+.picks-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 22px;
+    column-gap: 10px;
+    row-gap: 15px;
+    
+}
+
+.recommended_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 21px 5px 0;
+    column-gap: 24.65px;
+    row-gap: 20px;
+    
+    
+}
+.recommended{
+    margin: 14px 16px;
+}
+.h3-commend{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 4px;
+}
+.bottom_navs{
+    background-color: #00c853;
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    margin-top: 45px;
+    padding: 10px 64.5px;
+}
+.shopping-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 54px 29px 88px 29px;
+}
+.shopping-head h2{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #00c853;
+}
+.tomatoes{
+    display: flex;
+    border: 1px solid #00c853;
+    margin: 0 29px;
+    
+}
+.tomatoes_plus{
+    margin: 0 19px;
+    background-color: blue;
+}
+.tomatoes_plus h5{
+    margin-top: 5px;
+    font-family: roboto;
+    font-size: 400;
+
+}
+.tomatoes_plus p{
+    margin-top: 30px;
+}
+.tomatoes_x{
+    background-color: red;
+    margin-left: 80px;
+    font-style: ;
+
+    
+}
